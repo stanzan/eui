@@ -1,0 +1,51 @@
+
+
+/*layout*/
+
+.st-doc-header{
+	margin-top: 51px;
+	background: #666;
+	color: #fff;
+}
+.st-container{
+	padding-bottom: 40px;
+}
+
+.st-sideBar{
+	background: #f4f4f4;
+}
+.st-docs-sidenav{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.st-docs-sidenav li{
+	text-align: right;
+	font-size: 14px;
+}
+.st-docs-sidenav li a{
+	border-right: 2px solid #f4f4f4;
+	padding: 6px 20px;
+}
+.st-docs-sidenav li ul{
+	display: none;
+}
+.st-docs-sidenav .nav{
+	padding-bottom: 10px;
+}
+.st-docs-sidenav li ul li{
+	font-size: 12px;
+}
+.st-docs-sidenav li ul li a{
+	border-right:1px solid #f4f4f4;
+	padding: 1px 20px 1px 0;
+}
+.st-docs-sidenav li ul li:hover a{
+	border-right:1px solid #333;
+}
+.st-docs-sidenav li:hover>a,
+.st-docs-sidenav li.active>a{
+	border-right: 2px solid #333;
+}
+.st-docs-sidenav li.active ul{
+	display: block;
+}
